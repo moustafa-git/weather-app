@@ -89,7 +89,7 @@ function secondCard(days, dates) {
   const temp1 = kelvinToCelsius(days[1].main.temp_max).toFixed(2);
   temp1Placeholder.innerHTML = `${temp1}&deg;C`;
   const temp2 = kelvinToCelsius(days[1].main.temp_min).toFixed(2);
-  temp1Placeholder.innerHTML = `${temp2}&deg;C`;
+  temp2Placeholder.innerHTML = `${temp2}&deg;C`;
   weather1Placeholder.innerHTML = days[1].weather[0].main;
 }
 
