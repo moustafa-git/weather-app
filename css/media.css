@@ -1,0 +1,60 @@
+/* sm devices */
+@media screen and (min-width: 576px) {
+}
+
+/* md devices */
+@media screen and (min-width: 768px) {
+}
+
+/* lg devices */
+@media screen and (min-width: 992px) {
+  .navbar {
+    .navbar-nav {
+      background-color: var(--main-color);
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      gap: 19px;
+    }
+
+    .nav-item {
+      border-bottom: none;
+      padding: 0;
+      width: 95px;
+    }
+
+    .nav-link {
+      font-weight: 400;
+      border: 2px solid transparent;
+      border-radius: 15px;
+      transition: all 0.3s;
+      padding: 2px 0;
+      &:hover {
+        color: var(--secondary-color);
+        border-color: var(--secondary-color);
+      }
+    }
+
+    .active {
+      color: var(--secondary-color);
+      border: 2px solid var(--secondary-color);
+      border-radius: 15px;
+    }
+  }
+
+  .cards {
+    height: 40vh;
+  }
+
+  .search-container.subscribe {
+    width: 75%;
+  }
+}
+
+/* xl devices */
+@media screen and (min-width: 1200px) {
+}
+
+/* 2xl devices */
+@media screen and (min-width: 1400px) {
+}
