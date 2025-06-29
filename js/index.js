@@ -110,7 +110,7 @@ function thirdCard(days, dates) {
 async function fetchWeather() {
   try {
     const res = await fetch(
-      `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}`
+      `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${key}`
     );
 
     if (!res.ok) {
