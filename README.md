@@ -24,7 +24,7 @@ Get accurate and stylish 3-day weather forecasts based on your location or any c
 
 ## 🚀 Live Demo
 
-Try the weather app now: [weather-netlify](https://683f8e985737f430a864184b--melodious-sunflower-827495.netlify.app/)
+Try the weather app now: [weather-netlify](https://chic-salamander-57c83c.netlify.app/)
 
 ![Logo](./images/1.png)
 
